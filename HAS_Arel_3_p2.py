@@ -6,16 +6,16 @@ class SN:
     def m2(self):
         print("sn1")
         print("sn2")
-class Main_news:
+class Main_news:                                          
     def __init__(self,PN,SN):
         self.pn=PN
         self.sn=SN
-
+                                         
     def info(self):
         self.pn.m1()
         self.sn.m2()
 
 p=PN()
 s=SN()
-m=Main_news(p,s)
+m=Main_news(p,s) 
 m.info()    
